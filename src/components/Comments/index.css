@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 70px;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-family: Roboto;
+}
+
+.comment-paragraph {
+  color: #475569;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.input-text {
+  height: 32px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-color: #cbd2d9;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: Roboto;
+  outline: none;
+}
+.input-textarea {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-color: #cbd2d9;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+.comment-button {
+  font-weight: Roboto;
+  background-color: #0284c7;
+  color: #dee0e3;
+  border-style: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 5px;
+}
+.h-line {
+  background-color: #dee0e3;
+  height: 1px;
+  width: 100%;
+}
+.flex-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.comment-img {
+  width: 100%;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+.comment-container {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.comments-number {
+  background-color: #0284c7;
+  color: #dee0e3;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
